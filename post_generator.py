@@ -95,7 +95,7 @@ def build_image(im_path, quote, im_count = '', logoify = True):
 
 	# if the 'add trademark' option is selected then add the logo and trademark
 	if (logoify):
-		trademark = "@PythonPassiveIncome"
+		trademark = "@AkhilChandran"
 		tm_font = ImageFont.truetype("utils/tommy.otf",52)
 		place_trademark(im, trademark, tm_font)
 		logo = Image.open("utils/logopy.png")
